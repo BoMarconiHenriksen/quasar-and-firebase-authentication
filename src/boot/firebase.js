@@ -7,18 +7,12 @@ import 'firebase/auth'
 import 'firebase/firestore'
 
 // Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: 'Enter your API Key',
-  authDomain: 'Enter your authDomain',
-  databaseURL: 'Enter your databaseURL',
-  projectId: 'Enter your projectId',
-  storageBucket: 'Enter your storageBucket',
-  messagingSenderId: 'Enter your messagingSenderId',
-  appId: 'Enter your appId',
-  measurementId: 'Enter your measurementId'
+var config = {
+  apiKey: Enter API key,
+  authDomain: Enter authDomain
 }
 // Initialize Firebase
-const firebaseApp = firebase.initializeApp(firebaseConfig)
+const firebaseApp = firebase.initializeApp(config)
 const firebaseAuth = firebaseApp.auth()
 
 export { firebaseAuth }
